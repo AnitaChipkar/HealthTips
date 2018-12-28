@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/img_health"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/img_health"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_view" />
+
+        <TextView
+            android:id="@+id/text_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/img_health"
+            android:text="@string/text_like"
+            android:textColor="@color/textCount"
+            android:textSize="@dimen/text_count" />
+
+        <TextView
+            android:id="@+id/likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/text_likes"
+            android:text=""
+            android:textSize="@dimen/text_count"
+            android:textColor="@color/textCount"/>
+
+        <TextView
+            android:id="@+id/text_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/likes_count"
+            android:text="@string/text_views"
+            android:textSize="@dimen/text_count"
+            android:textColor="@color/textCount"/>
+
+        <TextView
+            android:id="@+id/views_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/text_views"
+            android:text=""
+            android:textSize="@dimen/text_count"
+            android:textColor="@color/textCount"/>
+    <View
+       android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textCount"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/img_health"/>
+    </RelativeLayout>

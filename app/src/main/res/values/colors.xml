@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E6A933</color>
+    <color name="colorPrimaryDark">#221C2A</color>
+    <color name="colorAccent">#E6A933</color>
+    <color name="textName">#856337</color>
+    <color name="textCount">#CAC7CE</color>
+    <color name="searchHint">#A9A9A9</color>
+    <color name="progress_bar_color">#E6A933</color>
+</resources>
